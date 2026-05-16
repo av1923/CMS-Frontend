@@ -222,7 +222,7 @@ export function InstructorManagement() {
         }
 
         // Use instructors/:id/assign endpoint
-        const response = await api.post(`/instructors/${assignmentTarget.instructor_id}/assign`, assignPayload)
+        await api.post(`/instructors/${assignmentTarget.instructor_id}/assign`, assignPayload)
       }
       await loadInstructors(searchTerm)
       await loadSections() // Reload sections to update dropdown
