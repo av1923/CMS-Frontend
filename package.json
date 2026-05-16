@@ -23,8 +23,8 @@
     "react-query": "^3.39.3",
     "react-router-dom": "^6.18.0"
   },
-  "overrides": {
-    "@heroui/theme": "2.1.9"
+  "engines": {
+    "node": ">=18.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.1.4",
